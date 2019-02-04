@@ -10,7 +10,7 @@ var secrets = require('secrets.js');
 
 var certificados=require("./certificados");
 
-exports.api_path="/clientdev/restapi";
+exports.api_path="/client/restapi";
 
 exports.init=function(pubkey_keyserrver)
 {
